@@ -25,3 +25,68 @@ a img { border: none; }
 
 /* line 116, ../../../../../../../Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+/* 导航及头部 */
+/* line 3, ../sass/Layout/_header.scss */
+#zm-header { width: 100%; min-width: 1170px; height: 1040px; background: url(../static/img/bg_5c0486d.jpg) no-repeat center 0; position: relative; }
+
+/* line 11, ../sass/Layout/_header.scss */
+nav { height: 100px; background-color: #ffffffc9; }
+/* line 14, ../sass/Layout/_header.scss */
+nav ul { width: 1170px; margin: auto; }
+/* line 17, ../sass/Layout/_header.scss */
+nav ul li { float: left; width: 115px; height: 100px; text-align: center; }
+/* line 22, ../sass/Layout/_header.scss */
+nav ul li a { line-height: 100px; color: #5d4c28; text-decoration: none; }
+/* line 26, ../sass/Layout/_header.scss */
+nav ul li a:hover { color: #c2a66c; }
+/* line 31, ../sass/Layout/_header.scss */
+nav ul .active { position: relative; }
+/* line 33, ../sass/Layout/_header.scss */
+nav ul .active em { background: url(../static/img/index_z_7e1cf06.png) -531px -299px; width: 20px; height: 11px; position: absolute; bottom: 0; left: 47px; display: none; }
+/* line 42, ../sass/Layout/_header.scss */
+nav ul .active:hover { display: block; }
+/* line 46, ../sass/Layout/_header.scss */
+nav ul .logo { width: 250px; }
+/* line 48, ../sass/Layout/_header.scss */
+nav ul .logo i { display: block; background: url(../static/img/150.webp) no-repeat center 10px; height: 100px; }
+
+/* line 57, ../sass/Layout/_header.scss */
+.header-hide { width: 100%; min-width: 1170px; background: rgba(0, 0, 0, 0.7); display: none; }
+/* line 61, ../sass/Layout/_header.scss */
+.header-hide .header-hide-box { width: 1170px; margin: auto; height: 265px; }
+/* line 65, ../sass/Layout/_header.scss */
+.header-hide .header-hide-box ul { float: right; }
+/* line 68, ../sass/Layout/_header.scss */
+.header-hide .header-hide-box li { float: left; width: 190px; height: 178px; margin-left: 60px; margin-top: 55px; }
+/* line 76, ../sass/Layout/_header.scss */
+.header-hide .hide-left { width: 20px; height: 122px; line-height: 32px; font-size: 20px; font-family: MingLiU; color: #adabaa; position: relative; float: left; }
+/* line 85, ../sass/Layout/_header.scss */
+.header-hide .hide-left em { width: 1px; height: 135px; background: #adabaa; display: inline-block; position: absolute; }
+/* line 92, ../sass/Layout/_header.scss */
+.header-hide .hide-left .l-border { left: -7px; top: 10px; }
+/* line 96, ../sass/Layout/_header.scss */
+.header-hide .hide-left .r-border { right: -7px; bottom: 0; }
+/* line 101, ../sass/Layout/_header.scss */
+.header-hide .hide-right { margin-left: 42px; }
+/* line 103, ../sass/Layout/_header.scss */
+.header-hide .hide-right img { width: 100px; height: 100px; display: block; }
+/* line 108, ../sass/Layout/_header.scss */
+.header-hide .hide-right .hide-title { font-size: 12px; color: #ccc; margin: 5px 0; }
+/* line 114, ../sass/Layout/_header.scss */
+.header-hide .hide-right .hide-item span { font-size: 12px; color: #fff; display: block; margin: 5px 0; }
+/* line 120, ../sass/Layout/_header.scss */
+.header-hide .hide-right .hide-item .hide-active { color: #f3dea1; }
+
+/* line 129, ../sass/Layout/_header.scss */
+.header-action { position: absolute; bottom: 470px; right: 255px; width: 284px; height: 149px; }
+/* line 135, ../sass/Layout/_header.scss */
+.header-action .a-left { float: left; width: 105px; height: 105px; }
+/* line 139, ../sass/Layout/_header.scss */
+.header-action .a-left img { width: 100%; height: 100%; }
+/* line 144, ../sass/Layout/_header.scss */
+.header-action .a-right-top { float: right; width: 171px; height: 97px; margin-bottom: 30px; }
+/* line 149, ../sass/Layout/_header.scss */
+.header-action .a-right-top a { display: block; margin: 5px 0; }
+/* line 154, ../sass/Layout/_header.scss */
+.header-action .a-right-bottom { clear: both; }

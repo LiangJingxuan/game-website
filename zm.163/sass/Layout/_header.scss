@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import "../Helpers/variables";
+#zm-header{
+	width: 100%;
+	min-width: $navMinWidth;
+	height: 1040px;
+	background: url(../static/img/bg_5c0486d.jpg) no-repeat center 0;
+	position: relative;
+}
+// 导航
+nav{
+	height: $navHeight;
+	background-color: $navBg;
+	ul{
+		width: $navMinWidth;
+		margin: auto;
+		li{
+			float: left;
+			width: 115px;
+			height: $navHeight;
+			text-align: center;
+			a{
+				line-height: 100px;
+				color: $itemColor;
+				text-decoration: none;
+				&:hover{
+					color: $itemColorSelected;
+				}
+			}
+		}
+		.active{
+			position: relative;
+			em{
+				background: url(../static/img/index_z_7e1cf06.png) -531px -299px;
+				width: 20px;
+				height: 11px;
+				position: absolute;
+				bottom: 0;
+				left: 47px;
+				display: none;
+			}
+			&:hover{
+				display: block;
+			}	
+		}
+		.logo{
+			width: 250px;
+			i{
+				display: block;
+				background: url(../static/img/150.webp) no-repeat center 10px;
+				height: 100px;
+			}
+		}
+	}
+}
+// 隐藏导航
+.header-hide{
+	width: 100%;
+	min-width: $navMinWidth;
+	background: rgba(0,0,0,.7);
+	.header-hide-box{
+		width: $navMinWidth;
+		margin: auto;
+		height: 265px;
+		ul{
+			float: right;
+		}
+		li{
+		    float: left;
+		    width: 190px;
+		    height: 178px;
+		    margin-left: 60px;
+		    margin-top: 55px;
+		}
+	}
+	.hide-left{
+		width: 20px;
+		height: 122px;
+    	line-height: 32px;
+    	font-size: 20px;
+    	font-family: MingLiU;
+    	color: #adabaa;
+    	position: relative;
+    	float: left;
+    	em{
+    		width: 1px;
+    		height: 135px;
+    		background: #adabaa;
+    		display: inline-block;
+    		position: absolute;
+    	}
+    	.l-border{
+    		left: -7px;
+    		top: 10px;
+    	}
+    	.r-border{
+    		right: -7px;
+    		bottom: 0;
+    	}
+	}
+	.hide-right{
+		margin-left: 42px;
+		img{
+			width: 100px;
+			height: 100px;
+			display: block;
+		}
+		.hide-title{
+			font-size: 12px;
+			color: #ccc;
+			margin: 5px 0;
+		}
+		.hide-item{
+			span{
+				font-size: 12px;
+				color: #fff;
+				display: block;
+				margin: 5px 0;
+			}
+			.hide-active{
+				color: #f3dea1;
+			}
+		}
+	}
+
+	display: none;
+}
+// 下载操作及视频
+.header-action{
+	position: absolute;
+	bottom: 470px;
+    right: 255px;
+	width: 284px;
+    height: 149px;
+    .a-left{
+    	float: left;
+    	width: 105px;
+    	height: 105px;
+    	img{
+    		width: 100%;
+    		height: 100%;
+    	}	
+    }
+    .a-right-top{
+    	float: right;
+	    width: 171px;
+	    height: 97px;
+	    margin-bottom: 30px;
+	    a{
+	    	display: block;
+	    	margin: 5px 0;
+	    }
+    }
+    .a-right-bottom{
+    	clear: both;
+    }
+}
